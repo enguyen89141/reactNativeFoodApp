@@ -4,12 +4,12 @@ import SearchScreen from './src/screens/SearchScreen';
 import ResultsShowScreen from './src/screens/ResultsShowScreen';
 
 const navigator = createStackNavigator({
-  Search: SearchScreen,
-  ResultsShow: ResultsShowScreen
+  'Business Search': SearchScreen,
+  Results: ResultsShowScreen
 }, {
-  initialRouteName: 'Search',
+  initialRouteName: 'Business Search',
   defaultNaviationOptions: {
-    title: 'BusinessSearch'
+    title: 'Search'
   }
 });
 
